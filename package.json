@@ -1,0 +1,22 @@
+{
+  "name": "motail",
+  "version": "1.0.0",
+  "description": "Modern modal replacement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/erikedhagen/motail-modern-modal-replacement.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "modal"
+  ],
+  "author": "Erik Edhagen <erikedhagen@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/erikedhagen/motail-modern-modal-replacement#readme"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "motail",
+  "version": "0.1.0",
+  "authors": [
+    "erikedhagen <erikedhagen@gmail.com>"
+  ],
+  "description": "Modern modal replacement",
+  "main": "js/motail.js",
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "motail",
+    "modal",
+    "replacement"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

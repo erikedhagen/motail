@@ -1,0 +1,43 @@
+/* ==========================================================================
+   Motail styles
+   ========================================================================== */
+
+html.js-motail-opened {
+    overflow-y: scroll;
+}
+
+
+html.js-motail-opened body {
+    overflow: hidden;
+}
+
+html.js-motail-opened #motail-canvas {
+    display: none;
+}
+
+.motail-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background: #aaa;
+
+    display: none;
+}
+
+.motail-wrapper.js-motail-prepare {
+    display: block;
+    visibility: hidden;
+}
+
+.motail-wrapper.js-motail-opened {
+    display: block;
+}
+
+
+.motail-body {
+    background: #ccc;
+    margin: 40px 0;
+    padding: 20px;
+}
