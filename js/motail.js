@@ -12,7 +12,6 @@ window.Motail = (function() {
 		}
 
 		$('[data-motail-open]').each( function(index) {
-			console.log('ye!');
 			var id = $(this).attr('data-motail-open');
 			$(this).on('click touchend', function(event) {
 				event.preventDefault();
@@ -101,6 +100,20 @@ window.Motail = (function() {
 			_close(id);
 		}
 	}
+
+	// function _setScroll(top) {
+	// 	if(window.pageYOffset != 'undefined') window.pageYOffset = top;
+	// 	else if(document.documentElement.scrollTop) document.documentElement.scrollTop = top;
+	// 	else if(document.body.scrollTop) document.body.scrollTop = top;
+	// }
+
+	// function _getScroll() {
+	// 	return typeof 
+	// 		window.pageYOffset != 'undefined' ? window.pageYOffset: 
+	// 		document.documentElement.scrollTop? document.documentElement.scrollTop: 
+	// 		document.body.scrollTop? document.body.scrollTop:
+	// 		0;
+	// }
 
 	function _close (id) {
 
